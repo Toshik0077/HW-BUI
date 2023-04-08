@@ -1,17 +1,15 @@
 .general-backgraund {
-  width: 1280px;
-  height: 720px;
-
   background: #12274f;
 }
 .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding: 20px 40px;
 }
 
 .navigation__logo {
-  margin: 45px 0px 10px 58px;
 }
 
 .navigation__menu {
@@ -36,7 +34,6 @@
   display: flex;
   align-items: center;
 
-  margin-right: 95px;
   gap: 56px;
 
   border-bottom: 2px solid #ffffff;
@@ -55,13 +52,15 @@
   display: flex;
   justify-content: space-between;
 
-  margin-top: 100px;
+  padding: 100px 80px 60px;
 }
 
 .content__aside {
-  margin-left: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   width: 600px;
-  height: 375px;
 
   background-image: url(/img/Vector\ 1.svg);
   background-repeat: no-repeat;
@@ -69,7 +68,6 @@
 
 .content__aside-title {
   margin-top: 37px;
-  margin-left: 130px;
 
   font-weight: 800;
   font-size: 55px;
@@ -83,7 +81,11 @@
 
   gap: 14px;
   margin-top: 23px;
-  margin-left: 130px;
+}
+
+.content__more-logo {
+  width: 96px;
+  height: 96px;
 }
 .content__btn {
   display: flex;
@@ -108,7 +110,6 @@
 }
 
 .content__avatar {
-  margin-right: 212px;
 }
 
 /***************social************/
@@ -117,6 +118,11 @@
   display: flex;
   justify-content: center;
 
-  margin-top: 60px;
+  padding: 0px 0px 40px;
   gap: 78px;
+}
+
+.social__logo {
+  width: 50px;
+  height: 50px;
 }
