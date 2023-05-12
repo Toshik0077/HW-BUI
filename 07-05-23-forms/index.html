@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- <div class="root">
+			<div class="item">
+				<p class="text">lorem</p>
+				<p class="text">lorem</p>
+			</div>
+			<div class="item">
+				<p class="text">lorem</p>
+				<p class="text">lorem</p>
+			</div>
+			<div class="item">
+                <p class="text">lorem</p>
+				<p class="text">lorem</p>
+			</div>
+			<div class="item"><img src="" alt=""></div>
+			<div class="item">5</div>
+			<div class="item">6</div>
+			<div class="item">7</div>
+			<div class="item">8</div>
+			<div class="item">9</div>
+		</div> -->
+    <!-- <form action="#">
+            <label for="login">
+                Login:
+                <input type="text" id="login" placeholder="Login" required name="login">
+            </label>
+            <input type="email" name="mail">
+            <input type="number" name="EDRPO">
+            <input type="password">
+            <label for="gogi">
+                <input type="checkbox" id="gogi">
+                I agree with terms and conditions
+            </label>
+            <input type="tel">
+
+            <label for="">
+                Перша відповідь
+                <input type="radio" name="question">
+            </label>
+            <label for="">
+                Друга відповідь
+                <input type="radio" name="question">
+            </label>
+            <label for="">
+                Третя відповідь
+                <input type="radio" name="question">
+            </label>
+
+
+            <textarea name=""></textarea>
+
+            <input type="submit" value="click me">
+            <button type="submit">confirm</button>
+
+            <h1>HARD STYLE INPUTS</h1>
+            <input type="checkbox">
+            <input type="radio">
+            <label for="" class="label-file">
+                <input type="file" class="file">
+                <span>choose files</span>
+            </label>
+            <input type="date">
+            <input type="color">
+        </form> -->
+
+    <form class="login">
+      <label class="login__label">
+        <p class="login__label-text">Description</p>
+        <input
+          class="login__input"
+          type="text"
+          placeholder="Inspiration"
+          name="login"
+        />
+      </label>
+      <label class="login__label">
+        <p class="login__label-text">Topic</p>
+        <input
+          class="login__input"
+          type="text"
+          placeholder="Vacation"
+          name="pass"
+        />
+      </label>
+      <div class="login__check-wrapper">
+        <h3 class="login__check-title">Colaborators can</h3>
+        <label for="check" class="login__check-label">
+          <p class="login__check-text">Add more people</p>
+          <input
+            class="login__check-input"
+            type="checkbox"
+            name="check"
+            id="check"
+          />
+          <div class="login__check-custom"></div>
+        </label>
+      </div>
+      <!-- HW -->
+      <div class="login__check-wrapper--two">
+        <h3 class="login__check-title--two">People can</h3>
+        <label for="check" class="login__check-label--two">
+          <p class="login__check-text--two">Request to join</p>
+          <input
+            class="login__check-input--two"
+            type="checkbox"
+            name="check"
+            id="check"
+          />
+          <div class="login__check-custom--two"></div>
+        </label>
+      </div>
+      <!-- HW -->
+      <label for="terms" class="login__terms">
+        <div class="login_flag">
+          <input type="checkbox" id="terms" class="login__terms-input" />
+        </div>
+        <p class="login__terms-text">
+          Send me updates about Tropical Inspire products and services.
+          <a href="#">Privacy policy</a>
+        </p>
+      </label>
+      <button class="login__submit" type="submit">continue</button>
+    </form>
+  </body>
+</html>
