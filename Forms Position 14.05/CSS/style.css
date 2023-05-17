@@ -1,0 +1,249 @@
+.text {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+
+  letter-spacing: 0.02em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.caption {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+}
+
+.hero {
+  display: flex;
+
+  background: #270082;
+}
+.wave__top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.wave__bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.signup {
+  position: relative;
+}
+.signup__title {
+  position: relative;
+  text-align: center;
+
+  margin: 40px 0 62px;
+
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.form {
+  position: relative;
+}
+
+.signup__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 125px;
+}
+.form__label {
+}
+.form__labe-text {
+  margin-bottom: 30px;
+}
+.form__labe-input {
+  padding: 19px 97px 19px 29px;
+  margin-bottom: 30px;
+
+  background-color: #270082;
+  border: 3px solid #7a0bc0;
+  border-radius: 50px;
+}
+
+.signup__email-text {
+  margin-bottom: 30px;
+}
+.signup__email--input {
+  padding: 19px 481px 19px 29px;
+
+  margin-bottom: 30px;
+
+  background-color: #270082;
+  border: 3px solid #7a0bc0;
+  border-radius: 50px;
+}
+.signup__password-text {
+  margin-bottom: 30px;
+}
+.signup__password--input {
+  padding: 19px 481px 19px 29px;
+
+  margin-bottom: 30px;
+
+  background-color: #270082;
+  border: 3px solid #7a0bc0;
+  border-radius: 50px;
+}
+.signup__confirm--input {
+  padding: 19px 481px 19px 29px;
+
+  margin-bottom: 30px;
+
+  background-color: #270082;
+  border: 3px solid #7a0bc0;
+  border-radius: 50px;
+}
+.signup__col-one {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 33px;
+  gap: 14px;
+}
+.signup__col-one--text {
+  font-size: 16px;
+  line-height: 20px;
+}
+.signup__col-two {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 33px;
+  gap: 14px;
+}
+
+.signup__col-two--text {
+  width: 430px;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  margin-bottom: 20px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+
+  width: 301px;
+  height: 62px;
+
+  background: linear-gradient(93.71deg, #7a0bc0 13.27%, #fa58b6 101.64%);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.lead {
+  text-align: center;
+  font-size: 15px;
+  line-height: 19px;
+}
+.text__link {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 19px;
+  color: #fa58b6;
+  margin-left: 5px;
+}
+
+/*********************************************************/
+#highload0 {
+  opacity: 0;
+}
+#highload0 ~ label::before {
+  content: "";
+  text-align: center;
+  color: white;
+  line-height: 1em;
+  width: 1em;
+  height: 1em;
+  border: 3px solid #7a0bc0;
+  border-radius: 5px;
+  margin: 0.25em;
+  display: inline-block;
+}
+#highload0:checked ~ label::before {
+  content: "\2713";
+  text-align: center;
+  color: white;
+  line-height: 1em;
+  width: 1em;
+  height: 1em;
+  color: red;
+  border: 3px solid red;
+}
+
+#highload1 {
+  opacity: 0;
+}
+#highload1 ~ label::before {
+  content: "";
+  text-align: center;
+  color: white;
+  line-height: 1em;
+  width: 1em;
+  height: 1em;
+  border: 3px solid #7a0bc0;
+  border-radius: 5px;
+  margin: 0.25em;
+  display: inline-block;
+}
+#highload1:checked ~ label::before {
+  content: "\2713";
+  text-align: center;
+  color: white;
+  line-height: 1em;
+  width: 1em;
+  height: 1em;
+  color: red;
+  border: 3px solid red;
+}
+
+.checkbox-custom-label {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
