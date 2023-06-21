@@ -15,19 +15,22 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="main container">
-      <header class="sidebar">
+    <section class="main">
+      <header class="sidebar container">
         <a class="sidebar__slogan" href="#">Musik.</a>
         <ul class="sidebar__menu">
           <li class="sidebar__menu--link">Home</li>
           <li class="sidebar__menu--link">Speakers</li>
           <li class="sidebar__menu--link">Schedule</li>
           <li class="sidebar__menu--link">Contact Us</li>
+          <button class="btn" type="button">GET TICKETS</button>
         </ul>
-        <button class="btn" type="button">GET TICKETS</button>
       </header>
-      <div class="wrap">
-        <h2 class="wrap__title">The Best experience of music in 2021</h2>
+      <div class="wrap container">
+        <h2 class="wrap__title">
+          The Best experience of <span class="wrap__title--red">music</span> in
+          2021
+        </h2>
         <h3 class="wraptext">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           vitae ligula placerat, eleifend ex non, vehicula libero. Suspendisse
@@ -38,7 +41,7 @@
           <div class="wrap__more--play">
             <img
               class="wrap__more--play--img"
-              src="../HW5/img/Play.png"
+              src="./img/Play.png"
               alt="play"
             />
             <h2 class="wrap__more--play--slogan">Watch Video</h2>
@@ -52,21 +55,25 @@
         <h2 class="bg__text">18s</h2>
       </div>
     </section>
-    <section class="category container">
-      <h2 class="category__title">
+    <section class="category">
+      <h2 class="category__title container">
         <span class="category__title--span">Explore</span> By Category
       </h2>
-      <img class="category_img--top" src="/img/Confetti.png" alt="" />
-      <img class="category_img--bottom" src="/img/Confetti (1).png" alt="" />
-      <img class="category_img--line" src="/img/Confetti (line).png" alt="" />
-      <img
-        class="category_img--circle"
-        src="/img/Confetti (circle).png"
-        alt=""
-      />
       <ul class="category__bar">
+        <img class="category_img--top" src="./img/Confetti.png" alt="" />
+        <img class="category_img--bottom" src="./img/Confetti (1).png" alt="" />
+        <img
+          class="category_img--line"
+          src="./img/Confetti (line).png"
+          alt=""
+        />
+        <img
+          class="category_img--circle"
+          src="./img/Confetti (circle).png"
+          alt=""
+        />
         <li class="category__card">
-          <img class="category__card--img" src="/img/Dj Mixer.png" alt="DJ" />
+          <img class="category__card--img" src="./img/Dj Mixer.png" alt="DJ" />
           <h2 class="category__card--caption">Pop</h2>
           <p class="category__card--text text">
             Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
@@ -74,7 +81,7 @@
           </p>
         </li>
         <li class="category__card">
-          <img class="category__card--img" src="/img/Dj Mixer.png" alt="DJ" />
+          <img class="category__card--img" src="./img/Dj Mixer.png" alt="DJ" />
           <h2 class="category__card--caption">Pop</h2>
           <p class="category__card--text text">
             Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
@@ -82,7 +89,7 @@
           </p>
         </li>
         <li class="category__card">
-          <img class="category__card--img" src="/img/Dj Mixer.png" alt="DJ" />
+          <img class="category__card--img" src="./img/Dj Mixer.png" alt="DJ" />
           <h2 class="category__card--caption">Pop</h2>
           <p class="category__card--text text">
             Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
@@ -90,7 +97,7 @@
           </p>
         </li>
         <li class="category__card">
-          <img class="category__card--img" src="/img/Dj Mixer.png" alt="DJ" />
+          <img class="category__card--img" src="./img/Dj Mixer.png" alt="DJ" />
           <h2 class="category__card--caption">Pop</h2>
           <p class="category__card--text text">
             Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
@@ -98,7 +105,7 @@
           </p>
         </li>
         <li class="category__card">
-          <img class="category__card--img" src="/img/Dj Mixer.png" alt="DJ" />
+          <img class="category__card--img" src="./img/Dj Mixer.png" alt="DJ" />
           <h2 class="category__card--caption">Pop</h2>
           <p class="category__card--text text">
             Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
@@ -107,128 +114,135 @@
         </li>
       </ul>
     </section>
-    <section class="AboutMusik container">
-      <img class="AboutMusik__confeti" src="/img/Confetti (steps).png" alt="" />
-      <img src="../img/Musik pro.png" alt="pro" />
-      <div class="about">
-        <h2 class="about__subtitle">About Musik</h2>
-        <p class="about__desc text">
-          Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus
-          a elit sodales, tincidunt nunc non, maximus lacus. Fusce a augue sed
-          dolor auctor iaculis vitae id mauris. Integer ut lectus non neque
-          suscipit luctus. Mauris et erat id ipsum condimentum cursus. Sed
-          tempus enim non massa mattis iaculis. In quis massa risus
-        </p>
-        <button class="about__button generalbutton" type="button">
-          Learn More
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12.172 6.99998L6.808 1.63598L8.222 0.221985L16 7.99998L8.222 15.778L6.808 14.364L12.172 8.99998H0V6.99998H12.172Z"
-              fill="white"
-            />
-          </svg>
-        </button>
-      </div>
-    </section>
-    <section class="singers container">
-      <img class="singers_img--left" src="/img/Confetti (2).png" alt="" />
-      <img class="singers_img--right" src="/img/Pattern.png" alt="" />
-      <div class="sidebar__singers">
-        <h2 class="sidebar__subtitle">Singers</h2>
-        <p class="sidebar__desc text">
-          Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus
-          a elit sodales, tincidunt nunc non, maximus lacus. Fusce a augue sed
-          dolor auctor iaculis vitae id mauris. Integer ut lectus non neque
-          suscipit luctus. Mauris et erat id ipsum condimentum cursus. Sed
-          tempus enim non massa mattis iaculis. In quis massa risus
-        </p>
-        <button class="sidebar__button generalbutton" type="button">
-          View All Singers
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12.172 6.99998L6.808 1.63598L8.222 0.221985L16 7.99998L8.222 15.778L6.808 14.364L12.172 8.99998H0V6.99998H12.172Z"
-              fill="white"
-            />
-          </svg>
-        </button>
-      </div>
-      <div class="picture__singers">
-        <div class="picture__singers--top">
-          <img class="picture__singers__1" src="../img/Img 1.png" alt="1" />
-          <img class="picture__singers__2" src="../img/Img 2.png" alt="2" />
-        </div>
-        <div class="picture__singers--bottom">
-          <img class="picture__singers__3" src="../img/Img 3.png" alt="3" />
-          <img class="picture__singers__4" src="../img/Img 4.png" alt="4" />
+    <section class="AboutMusik">
+      <img class="AboutMusik__confeti" src="./img/Confetti (steps).png" alt="" />
+      <div class="AboutMusik__blok container">
+        <img
+          class="AboutMusik__blok--img"
+          src="./img/Musik pro.png"
+          alt="pro"
+        />
+        <div class="about">
+          <h2 class="about__subtitle">About Musik</h2>
+          <p class="about__desc text">
+            Fusce justo mi, vehicula id arcu et, dapibus tristique lectus.
+            Vivamus a elit sodales, tincidunt nunc non, maximus lacus. Fusce a
+            augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus
+            non neque suscipit luctus. Mauris et erat id ipsum condimentum
+            cursus. Sed tempus enim non massa mattis iaculis. In quis massa
+            risus
+          </p>
+          <a class="about__button generalbutton" href="#">
+            Learn More
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.172 6.99998L6.808 1.63598L8.222 0.221985L16 7.99998L8.222 15.778L6.808 14.364L12.172 8.99998H0V6.99998H12.172Z"
+                fill="white"
+              />
+            </svg>
+          </a>
         </div>
       </div>
     </section>
-    <section class="sponsors container">
+    <section class="singers">
+      <img class="singers_img--left" src="./img/Confetti (2).png" alt="" />
+      <img class="singers_img--right" src="./img/Pattern.png" alt="" />
+      <div class="singers__bg container">
+        <div class="sidebar__singers">
+          <h2 class="sidebar__subtitle">Singers</h2>
+          <p class="sidebar__desc text">
+            Fusce justo mi, vehicula id arcu et, dapibus tristique lectus.
+            Vivamus a elit sodales, tincidunt nunc non, maximus lacus. Fusce a
+            augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus
+            non neque suscipit luctus. Mauris et erat id ipsum condimentum
+            cursus. Sed tempus enim non massa mattis iaculis. In quis massa
+            risus
+          </p>
+          <a class="sidebar__button generalbutton" href="#">
+            View All Singers
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.172 6.99998L6.808 1.63598L8.222 0.221985L16 7.99998L8.222 15.778L6.808 14.364L12.172 8.99998H0V6.99998H12.172Z"
+                fill="white"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="picture__singers">
+          <img class="picture__singers__item" src="./img/Img 1.png" alt="1" />
+          <img class="picture__singers__item" src="./img/Img 2.png" alt="2" />
+          <img class="picture__singers__item" src="./img/Img 3.png" alt="3" />
+          <img class="picture__singers__item" src="./img/Img 4.png" alt="4" />
+        </div>
+      </div>
+    </section>
+    <section class="sponsors">
       <img
         class="sponsors_img--left"
-        src="../img/Pattern (sponsors ).png"
+        src="./img/Pattern (sponsors ).png"
         alt=""
       />
       <img
         class="sponsors_img--righttop"
-        src="../img/Confetti (sponsors 1).png"
+        src="./img/Confetti (sponsors 1).png"
         alt=""
       />
       <img
         class="sponsors_img--rightbottom"
-        src="../img/Confetti (sponsors 2).png"
+        src="./img/Confetti (sponsors 2).png"
         alt=""
       />
-      <h3 class="sponsors__title">Our Sponsors</h3>
-      <ul class="sponsors__partners">
-        <li class="sponsors__partners--logo">
-          <img src="../img/google.png" alt="" />
-        </li>
-        <li class="sponsors__partners--logo">
-          <img src="../img/microsoft.png" alt="" />
-        </li>
-        <li class="sponsors__partners--logo">
-          <img src="../img/airbnb.png" alt="" />
-        </li>
-        <li class="sponsors__partners--logo">
-          <img src="../img/axure.png" alt="" />
-        </li>
-        <li class="sponsors__partners--logo">
-          <img src="../img/apple.png" alt="" />
-        </li>
-        <li class="sponsors__partners--logo">
-          <img src="../img/facebook.png" alt="" />
-        </li>
-        <li class="sponsors__partners--logo">
-          <img src="../img/nokia.png" alt="" />
-        </li>
-        <li class="sponsors__partners--logo">
-          <img src="../img/oracle.png" alt="" />
-        </li>
-      </ul>
-      <button class="sponsors__button generalbutton" type="button">
-        Become a Sponsor
-      </button>
+      <div class="sponsors__blok container">
+        <h3 class="sponsors__title">Our Sponsors</h3>
+        <ul class="sponsors__partners">
+          <li class="sponsors__partners--logo">
+            <img src="./img/google.png" alt="" />
+          </li>
+          <li class="sponsors__partners--logo">
+            <img src="./img/microsoft.png" alt="" />
+          </li>
+          <li class="sponsors__partners--logo">
+            <img src="./img/airbnb.png" alt="" />
+          </li>
+          <li class="sponsors__partners--logo">
+            <img src="./img/axure.png" alt="" />
+          </li>
+          <li class="sponsors__partners--logo">
+            <img src="./img/apple.png" alt="" />
+          </li>
+          <li class="sponsors__partners--logo">
+            <img src="./img/facebook.png" alt="" />
+          </li>
+          <li class="sponsors__partners--logo">
+            <img src="./img/nokia.png" alt="" />
+          </li>
+          <li class="sponsors__partners--logo">
+            <img src="./img/oracle.png" alt="" />
+          </li>
+        </ul>
+        <a class="sponsors__button generalbutton" href="#">
+          Become a Sponsor
+        </a>
+      </div>
     </section>
-    <section class="shots container">
-      <h2 class="shots__title">See our Best Shots</h2>
-      <div class="shots__arrow__left"></div>
-      <div class="shots__arrow__right"></div>
+    <section class="shots">
+      <h2 class="shots__title container">See our Best Shots</h2>
       <div class="shots__card">
         <div class="shots__card--block">
-          <img class="shots__img" src="../img/card 1.png" alt="" />
+          <div class="shots__arrow__left"></div>
+          <img class="shots__img" src="./img/card 1.png" alt="" />
           <header class="shots__card--header">
             <div class="shots__card--header--block">
               <svg
@@ -249,7 +263,7 @@
           </header>
         </div>
         <div class="shots__card--block">
-          <img src="../img/card 2.png" alt="" />
+          <img src="./img/card 2.png" alt="" />
           <header class="shots__card--header">
             <div class="shots__card--header--block">
               <svg
@@ -270,7 +284,7 @@
           </header>
         </div>
         <div class="shots__card--block">
-          <img src="../img/card 3.png" alt="" />
+          <img src="./img/card 3.png" alt="" />
           <header class="shots__card--header">
             <div class="shots__card--header--block">
               <svg
@@ -291,7 +305,7 @@
           </header>
         </div>
         <div class="shots__card--block">
-          <img src="../img/card  4.png" alt="" />
+          <img src="./img/card  4.png" alt="" />
           <header class="shots__card--header">
             <div class="shots__card--header--block">
               <svg
@@ -312,7 +326,8 @@
           </header>
         </div>
         <div class="shots__card--block">
-          <img class="shots__img" src="../img/card 5.png" alt="" />
+          <div class="shots__arrow__right"></div>
+          <img class="shots__img" src="./img/card 5.png" alt="" />
           <header class="shots__card--header">
             <div class="shots__card--header--block">
               <svg
@@ -334,57 +349,66 @@
         </div>
       </div>
     </section>
-    <section class="contact container">
+    <section class="contact">
       <div class="contact__aside">
         <h2 class="contact__aside--title">Contact us</h2>
         <p class="contact__aside--desc text">
           Have an inquiry? We’ll be happy to assist you
         </p>
         <div class="contact__aside--info">
-          <img src="/img/Tell.png" alt="" />
+          <img src="./img/Tell.png" alt="" />
           <p class="contact__aside--info--text">+92 333 6527366</p>
         </div>
         <div class="contact__aside--info">
-          <img src="/img/Email.png" alt="" />
+          <img src="./img/Email.png" alt="" />
           <p class="contact__aside--info--text">abuzer@greelogix.com</p>
         </div>
         <div class="contact__aside--info">
-          <img src="/img/Map Pin.png" alt="" />
+          <img src="./img/Map Pin.png" alt="" />
           <p class="contact__aside--info--text">
             Plot 252, Block L Phase 2 Johar Town, Lahore, PK
           </p>
         </div>
-        <img class="contact_confeti" src="/img/Shape.png" alt="" />
+        <img class="contact_confeti" src="./img/Shape.png" alt="" />
       </div>
       <div class="contact__sidebar">
         <div class="contact__sidebar--panel">
           <h2 class="contact__sidebar--title">Fill in your details</h2>
-          <label class="contact__sidebar--panel--label" for="">
-            <p class="contact__sidebar--panel--label--caption text">Name</p>
-            <input
-              class="contact__sidebar--panel--label--input"
-              type="text"
-              placeholder="John Doe"
-              name="pass"
-            />
-          </label>
-          <label class="contact__sidebar--panel--label" for="">
-            <p class="contact__sidebar--panel--label--caption text">Email</p>
-            <input
-              class="contact__sidebar--panel--label--input"
-              type="email"
-              placeholder="johndoe2347@mail.com"
-              name="email"
-            />
-          </label>
-          <label class="contact__sidebar--panel--label" for="">
-            <p class="contact__sidebar--panel--label--caption text">Message</p>
-            <input
-              class="contact__sidebar--panel--label--input--text"
-              type="text"
-              name="text"
-            />
-          </label>
+
+          <form action="#">
+            <label class="contact__sidebar--panel--label" for="">
+              <p class="contact__sidebar--panel--label--caption text">Name</p>
+              <input
+                class="contact__sidebar--panel--label--input"
+                type="text"
+                placeholder="John Doe"
+                name="pass"
+              />
+            </label>
+          </form>
+          <form action="#">
+            <label class="contact__sidebar--panel--label" for="">
+              <p class="contact__sidebar--panel--label--caption text">Email</p>
+              <input
+                class="contact__sidebar--panel--label--input"
+                type="email"
+                placeholder="johndoe2347@mail.com"
+                name="email"
+              />
+            </label>
+          </form>
+          <form action="#">
+            <label class="contact__sidebar--panel--label" for="">
+              <p class="contact__sidebar--panel--label--caption text">
+                Message
+              </p>
+              <input
+                class="contact__sidebar--panel--label--input--text"
+                type="text"
+                name="text"
+              />
+            </label>
+          </form>
           <button
             class="contact__sidebar--panel__button generalbutton"
             type="button"
@@ -394,9 +418,10 @@
         </div>
       </div>
     </section>
-    <footer class="footermusik container">
-      <a class="footermusik__slogan" href="#">Musik.</a>
-      <div class="footermusik__blok">
+    <footer class="footermusik">
+      <div class="blok__footer container">
+      <a class="footermusik__slogan " href="#">Musik.</a>
+      <div class="footermusik__blok ">
         <ul class="footermusik__blok--items">
           <li class="footermusik__blok--items--item">Home</li>
           <li class="footermusik__blok--items--item">Company</li>
@@ -406,17 +431,17 @@
         </ul>
         <div class="footermusik__blok--social">
           <img
-            src="/img/Facebook 2.png"
+            src="./img/Facebook 2.png"
             alt=""
             class="footermusik__blok--social--icon"
           />
           <img
-            src="/img/Instagram 2.png"
+            src="./img/Instagram 2.png"
             alt=""
             class="footermusik__blok--social--icon"
           />
           <img
-            src="/img/Twitter 2.png"
+            src="./img/Twitter 2.png"
             alt=""
             class="footermusik__blok--social--icon"
           />
@@ -424,5 +449,6 @@
         <p class="footermusik__blok--excerpt">© musik.com, 2021</p>
       </div>
     </footer>
+  </div>
   </body>
 </html>
