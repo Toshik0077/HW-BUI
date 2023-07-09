@@ -1,0 +1,31 @@
+@mixin flex($align: flex-start, $jusyify: flex-start) {
+  display: flex;
+  align-items: $align;
+  justify-content: $jusyify;
+}
+@mixin sizes($w: none, $h: none) {
+  @if ($w != none) {
+    width: $w;
+  }
+  @if ($h != none) {
+    height: $h;
+  }
+}
+@mixin font($w: none, $s: none, $h: none, $c: none) {
+  font-weight: $w;
+  font-size: $s;
+  line-height: $h;
+  color: $c;
+}
+
+@mixin mqUP($w) {
+  $resolution: map-get($breakpoints, $w);
+  @media screen and (min-width: $resolution) {
+    @content;
+  }
+}
+
+$breakpoints: (
+  "dt": 1440px,
+  "sm": 375px,
+);

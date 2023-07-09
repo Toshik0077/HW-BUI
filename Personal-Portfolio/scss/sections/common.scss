@@ -1,0 +1,40 @@
+.container {
+  max-width: 307px;
+  margin: 0 auto;
+  @media screen and (min-width: $desktop) {
+    max-width: 1229px;
+    margin: 0 auto;
+  }
+}
+.btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  text-align: center;
+
+  background: linear-gradient(180deg, #15b9b9 0%, #3c1dff 100%);
+  border-radius: 6.8731px;
+  color: #ffffff;
+
+  transition: all 0.5s ease;
+
+  &:active {
+    color: #1f1f1f;
+  }
+
+  &:focus {
+    outline: 2px solid #ffffff;
+  }
+
+  &:hover {
+    background: linear-gradient(90deg, #15b9b9 0%, #3c1dff 100%);
+  }
+}
+
+body {
+  background-color: rgba(31, 31, 31, 1);
+}

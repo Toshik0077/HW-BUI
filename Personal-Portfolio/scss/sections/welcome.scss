@@ -1,0 +1,171 @@
+.welcome {
+  &__wrapper {
+    @include flex(center, space-between);
+
+    margin: 24px 0 30px;
+    @media screen and (min-width: $desktop) {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    &-title {
+      font-family: $Alex;
+      @include font(400, 14.11px, 17.63px, $white);
+      @media screen and (min-width: $desktop) {
+        @include font(400, 32px, 40px, $white);
+      }
+    }
+    &-burger {
+      display: block;
+      position: relative;
+
+      @include sizes(16.33px, 5.78px);
+
+      &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        top: 0;
+        background-color: $white;
+        border-radius: 2px;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        width: 80%;
+        height: 1px;
+        bottom: 0;
+        right: 0;
+        background-color: $white;
+        border-radius: 2px;
+      }
+      @media screen and (min-width: $desktop) {
+        display: none;
+      }
+    }
+  }
+  &__hero {
+    display: inline;
+
+    @media screen and (min-width: $desktop) {
+      @include flex(center, start);
+      flex-direction: row-reverse;
+      column-gap: 300px;
+    }
+    &-img {
+      width: 307px;
+      height: 365px;
+
+      @media screen and (min-width: $desktop) {
+        width: 566px;
+        height: 610px;
+      }
+    }
+    &-info {
+      @include flex(center, center);
+      flex-direction: column;
+      @media screen and (min-width: $desktop) {
+        @include flex(start, center);
+      }
+    }
+  }
+  &__title {
+    font-family: $Poppins;
+    @include font(300, 17.46px, 26.19px, $white);
+
+    margin: 32px 0 10px;
+    @media screen and (min-width: $desktop) {
+      @include font(300, 25.4px, 38.11px, $white);
+    }
+  }
+  &__subtitle {
+    font-family: $Poppins;
+    @include font(600, 33.4px, 50.1px, $white);
+
+    margin-bottom: 5px;
+    @media screen and (min-width: $desktop) {
+      @include font(600, 67.11px, 100.66px, $white);
+    }
+  }
+  &__position {
+    font-family: $Poppins;
+    @include font(600, 13.67px, 20.51px, $white);
+
+    margin-bottom: 33px;
+    @media screen and (min-width: $desktop) {
+      @include font(300, 19.89px, 29.83px, $white);
+    }
+  }
+  &__control {
+    @include flex(center, center);
+  }
+  &__button {
+    text-decoration: none;
+    padding: 11px 32px;
+    @include font(400, 17.46px, 26.19px, $white);
+    letter-spacing: 5%;
+
+    font-family: $Poppins;
+    @media screen and (min-width: $desktop) {
+      @include font(300, 25.4px, 38.11px, $white);
+      padding: 17px 47px;
+    }
+  }
+}
+
+.menu {
+  position: absolute;
+  top: 80px;
+  right: 0;
+
+  padding: 20px;
+
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  row-gap: 15px;
+  background-color: $blue;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  &__item:nth-child(1),
+  &__item:nth-child(2) {
+    @media screen and (min-width: $desktop) {
+      margin: 0 35px;
+    }
+  }
+
+  &__item:nth-child(3) {
+    @media screen and (min-width: $desktop) {
+      margin-left: 35px;
+    }
+  }
+
+  &__link {
+    @include font(400, 20px, 30px, $grey);
+    font-family: $Poppins;
+    transition: all 0.5s ease;
+
+    &:active {
+      color: $white;
+    }
+
+    &:focus {
+      color: $white;
+    }
+
+    &:hover {
+      box-shadow: 0px 0px 10px 3px $blue;
+    }
+  }
+
+  @media screen and (min-width: $desktop) {
+    position: relative;
+    @include flex(space-between, center);
+    flex-direction: row;
+
+    background-color: initial;
+    padding: 0;
+    top: 0;
+    height: auto;
+  }
+}

@@ -1,0 +1,39 @@
+.footer {
+  margin-bottom: 50px;
+
+  &-title {
+    font-family: $Poppins;
+    @include font(600, 30.38px, 45.57px, $white);
+    letter-spacing: 5%;
+    text-align: center;
+    margin-bottom: 9px;
+    @media screen and (min-width: $desktop) {
+      @include font(600, 56.48px, 84.72px, $white);
+    }
+  }
+  &__description {
+    font-family: $Poppins;
+    @include font(400, 10.28px, 15.43px, $grey-dark);
+    letter-spacing: 5%;
+    text-align: center;
+    margin-bottom: 9px;
+    @media screen and (min-width: $desktop) {
+      @include font(400, 19.12px, 28.68px, $grey-dark);
+      margin-bottom: 24px;
+    }
+  }
+  &__button {
+    text-decoration: none;
+    padding: 12px 42px;
+    @include font(400, 13.67px, 20.5px, $white);
+    letter-spacing: 5%;
+
+    font-family: $Poppins;
+    margin-left: 65px;
+    @media screen and (min-width: $desktop) {
+      @include font(400, 25.4px, 38.11px, $white);
+      padding: 22px 77px;
+      margin-left: 450px;
+    }
+  }
+}

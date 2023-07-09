@@ -1,0 +1,105 @@
+.info {
+  &__client {
+    margin-bottom: 64px;
+
+    @include flex(center, space-between);
+    @media screen and (min-width: $desktop) {
+      @include flex(center, start);
+      gap: 65px;
+    }
+
+    &--title {
+      text-decoration: none;
+
+      font-family: $Questrial;
+      @include font(400, 24.25px, 24.98px, $white);
+      letter-spacing: 5%;
+
+      margin-top: 58px;
+      @media screen and (min-width: $desktop) {
+        @include font(400, 40.15px, 41.35px, $white);
+      }
+    }
+  }
+}
+.info__board {
+  display: inline;
+  @media screen and (min-width: $desktop) {
+    @include flex(center, space-between);
+  }
+
+  &__img {
+    margin-bottom: 60px;
+    position: relative;
+    @include flex(center, start);
+    &--fone {
+      @include sizes(207.56px, 293.48px);
+      position: relative;
+      @media screen and (min-width: $desktop) {
+        @include sizes(383.97px, 542.92px);
+      }
+    }
+    &--avatar {
+      position: absolute;
+      left: 18px;
+      top: 18px;
+      @include sizes(254.23px, 280.49px);
+      @media screen and (min-width: $desktop) {
+        @include sizes(470.32px, 518.9px);
+      }
+    }
+  }
+  &__aside {
+    position: relative;
+    width: 100%;
+    @media screen and (min-width: $desktop) {
+      width: 521px;
+    }
+
+    &--caption {
+      position: relative;
+      font-family: $Poppins;
+      @include font(600, 45.81px, 68.71px, $white);
+      letter-spacing: 5%;
+      @media screen and (min-width: $desktop) {
+        @include font(600, 93.88px, 140.83px, $white);
+      }
+    }
+    &--fone {
+      @include sizes(46.12px, 62.67px);
+      position: absolute;
+      left: -1px;
+      top: -16px;
+      @media screen and (min-width: $desktop) {
+        @include sizes(94.52px, 128.44px);
+        left: -4px;
+        top: -27px;
+      }
+    }
+    &--text {
+      width: 100%;
+      max-height: 130px;
+      overflow-y: scroll;
+      @include font(400, 8.6px, 12.91px, $white);
+      letter-spacing: 5%;
+      margin-bottom: 58px;
+      @media screen and (min-width: $desktop) {
+        @include font(400, 14px, 21px, $white);
+        max-height: 220px;
+
+        width: 521px;
+      }
+    }
+  }
+}
+.info__band {
+  width: 129.7px;
+  height: 2px;
+
+  border-bottom: 1.48px $white solid;
+
+  margin-bottom: 57px;
+  @media screen and (min-width: $desktop) {
+    width: 174px;
+  }
+}
